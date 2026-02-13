@@ -16,3 +16,6 @@ echo "Script executed at : $Total_Time"
 
 present=$(pwd)
 echo "Present working directory is : $present"
+
+processinstanceid=$($$)
+echo "Process instance id is: $processinstanceid"
