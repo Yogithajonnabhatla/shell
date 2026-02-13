@@ -14,6 +14,5 @@ Total_Time=$(($End_time-$Start_time))
 
 echo "Script executed at : $Total_Time"
 
-pwd=Present
-
-echo "Present working directory is : $pwd"
+present=$(pwd)
+echo "Present working directory is : $present"
